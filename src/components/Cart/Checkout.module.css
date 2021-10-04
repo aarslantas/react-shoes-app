@@ -1,0 +1,47 @@
+.checkout-form {
+  padding: 1rem 1rem 2rem 1rem;
+  width: fit-content;
+}
+.control {
+  font-size: 16px;
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.control input {
+  font-size: 20px;
+  padding: 10px 5px;
+  border: 1px solid black;
+
+  border-radius: 5px;
+}
+
+.control label {
+  text-align: right;
+  padding: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cancelBtn {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.confirmBtn {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+}

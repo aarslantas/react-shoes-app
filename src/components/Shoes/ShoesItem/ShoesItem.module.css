@@ -1,0 +1,10 @@
+.shoes-item {
+  padding: 1rem 3rem;
+  height: 6rem;
+
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}

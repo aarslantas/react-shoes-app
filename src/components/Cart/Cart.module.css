@@ -1,0 +1,44 @@
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  max-height: 20rem;
+  overflow: scroll;
+}
+
+.total {
+  padding: 0.5rem 1rem;
+  font-size: 25px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions button {
+  width: 6rem;
+  height: 3rem;
+  border-radius: 15px;
+  background-color: #ddd;
+  margin-left: 10px;
+}
+
+.actions button:hover {
+  background-color: rgb(179, 179, 179);
+}
+
+.btn-order {
+  background-color: green !important;
+  color: white;
+}
+
+.btn-order:hover {
+  background-color: rgb(41, 151, 41) !important;
+  color: white;
+}

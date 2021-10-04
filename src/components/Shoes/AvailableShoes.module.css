@@ -1,0 +1,46 @@
+.available-shoes {
+  position: relative;
+  top: 15rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  height: 200px;
+  width: 80%;
+}
+
+.available-shoes ul {
+  list-style: none;
+}
+
+.loading {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.loading p {
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.error {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.error p {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
